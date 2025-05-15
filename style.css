@@ -1,1 +1,24 @@
 *{box-sizing: border-box;}
+
+.nav-bar{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+.nav-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+    
+    &:first-child{
+        margin-right: auto;
+    }
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
