@@ -22,3 +22,18 @@
     text-decoration: none;
     color: black;
 }
+
+
+.footer-list{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-item{
+    display: flex;
+    margin: 0 10px;
+}
