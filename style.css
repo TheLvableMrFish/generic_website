@@ -65,6 +65,12 @@
     background-color: red;
 }
 
+.shape2{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
 
 .footer-list{
     list-style-type: none;
