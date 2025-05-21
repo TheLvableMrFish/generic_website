@@ -27,6 +27,8 @@
     border: 1px solid #000;
     height: 200px;
     position: relative;
+    z-index: 99;
+
 }
 
 .carousel-item{
@@ -63,12 +65,31 @@
     width: 200px;
     border-radius: 50%;
     background-color: red;
+    z-index: 99;
 }
 
 .shape2{
     height: 200px;
     width: 200px;
     background-color: blue;
+    z-index: 99;
+}
+
+.shape3{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    z-index: -99;
+}
+
+.tri{
+    width: 150%;
+    height: 100%;
+    background-color: white;
+    transform: 
+        rotate(45deg)
+        translate(-10%, -32%);
+    z-index: -;
 }
 
 
